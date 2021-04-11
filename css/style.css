@@ -28,3 +28,7 @@ body {
   color: inherit;
   text-decoration: none;
 }
+
+.list {
+  list-style: none;
+}
