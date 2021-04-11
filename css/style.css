@@ -2,18 +2,29 @@
 }
 
 :root {
-    --main-text-cl:#757575;
-    --title-cl:212121;
-    --alt-text-cl:#FFFFFF;
-    --alt-title-cl:#FFFFFF;
+  --main-text-cl: #757575;
+  --title-cl: 212121;
+  --alt-text-cl: #ffffff;
+  --alt-title-cl: #ffffff;
 
-    --main-font:'Roboto', sans-serif;
-    --title-font:'Raleway', sans-serif;
+  --dark-bg: #2f303a;
+
+  --main-font: "Roboto", sans-serif;
+  --title-font: "Raleway", sans-serif;
 }
 
 body {
   font-family: var (--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
 
- .link{
-     text-decoration: none;
- }
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-cl);
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
