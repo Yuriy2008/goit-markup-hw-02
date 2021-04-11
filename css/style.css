@@ -1,0 +1,19 @@
+@font-face {
+}
+
+:root {
+    --main-text-cl:#757575;
+    --title-cl:212121;
+    --alt-text-cl:#FFFFFF;
+    --alt-title-cl:#FFFFFF;
+
+    --main-font:'Roboto', sans-serif;
+    --title-font:'Raleway', sans-serif;
+}
+
+body {
+  font-family: var (--main-font);
+
+ .link{
+     text-decoration: none;
+ }
