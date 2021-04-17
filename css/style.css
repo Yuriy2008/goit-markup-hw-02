@@ -63,17 +63,33 @@ body {
   text-decoration: none;
 }
 
+.link-info:hover,
+.link-info:focus {
+  color: var(--accentc-cl);
+}
+
 .link {
-  color: inherit;
+  color: #212121;
   text-decoration: none;
   font-weight: 500;
 }
 .link:hover,
 .link:focus {
-  color: var(--accent-cl);
+  color: var(--accentc-cl);
 }
 
 .btn-studio {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
   color: #ffffff;
   background-color: var(--accentc-cl);
 }
